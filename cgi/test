@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Hello from CGI land!"
+echo "$REMOTE_HOST:$REMOTE_PORT"
