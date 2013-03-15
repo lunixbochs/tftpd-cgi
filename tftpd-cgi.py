@@ -145,7 +145,7 @@ class Request:
 				data = os.popen(path).read()
 			else:
 				print 'reading', path
-				f = open(path, 'r')
+				f = open(path, 'rb')
 				data = f.read()
 				f.close()
 		
